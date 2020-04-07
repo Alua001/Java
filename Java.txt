@@ -1,0 +1,17 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner a=new Scanner(System.in);
+        double x=a.nextInt();
+        double y;
+        double z=42500.0;
+        y=(x-(x*0.1))-((x-(x*0.1)-z)*0.1);
+        System.out.println(y);
+
+    }
+}
+                
